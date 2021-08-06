@@ -1,0 +1,78 @@
+/* the CSS in here is a boilerplate dumpsterfire. I poked at it a little. The page may be good from afar, but it is far from good. :/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:sans-serif;
+  margin: 25px;
+  color: #512D6D;
+  background-color: #EEEEEE;
+}
+
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.form-sub-container  {
+  justify-content: center;
+  display: flex;
+}
+
+.bottom-sub-container {
+  justify-content: center;
+  display: flex;
+
+}
+
+.bottom-sub-sub-container {
+
+}
+
+p {
+  max-width: 900px;
+}
+
+form {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #00C1D4;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #F8485E;
+  border: 1px solid grey;
+  box-shadow: 2px 2px #999;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FFFEC4;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1.2em;
+  background-color: #FFFEC4;
+  padding: 2px;
+}
